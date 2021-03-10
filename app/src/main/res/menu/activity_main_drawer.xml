@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_tudao"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_tudao" />
+        <item
+            android:id="@+id/nav_abuso_de_poder"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_abuso_de_poder" />
+        <item
+            android:id="@+id/nav_administracao_publica"
+            android:icon="@drawable/ic_questoes"
+            android:title= "@string/menu_adminitracao_publica" />
+        <item
+            android:id="@+id/nav_ce_mt"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_ce_mt" />
+        <item
+            android:id="@+id/nav_cf_art"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_cf_art" />
+        <item
+            android:id="@+id/nav_constituicao_federal"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_constituicao_federal" />
+        <item
+            android:id="@+id/nav_cppm"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_cppm" />
+        <item
+            android:id="@+id/nav_estatuto_militares"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_estatuto_militares" />
+        <item
+            android:id="@+id/nav_gestao_estrategica"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_gestao_estrategica" />
+        <item
+            android:id="@+id/nav_improbidade_administrativa"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_improbidade_administrativa" />
+        <item
+            android:id="@+id/nav_lei_de_tortura"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_lei_de_tortura" />
+        <item
+            android:id="@+id/nav_movimentacao"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_movimentacao" />
+        <item
+            android:id="@+id/nav_pad"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_pad" />
+        <item
+            android:id="@+id/nav_portaria_052"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_portaria_052" />
+        <item
+            android:id="@+id/nav_portugues"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_portugues" />
+        <item
+            android:id="@+id/nav_promocao"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_promocao" />
+        <item
+            android:id="@+id/nav_rdmp"
+            android:icon="@drawable/ic_questoes"
+            android:title="@string/menu_rdpm" />
+        <item
+            android:id="@+id/nav_logout"
+            android:icon="@drawable/ic_exit"
+            android:title="@string/menu_logout" />
+    </group>
+</menu>

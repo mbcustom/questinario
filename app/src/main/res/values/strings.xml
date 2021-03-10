@@ -1,0 +1,61 @@
+<resources>
+    <string name="app_name">Study</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="enter">Entrar</string>
+
+    <string name="home_second">Home Second</string>
+    <string name="menu_home">Home</string>
+    <string name="menu_abuso_de_poder">Abuso de Autoridade</string>
+    <string name="menu_adminitracao_publica">Administração Publica</string>
+    <string name="menu_ce_mt">CE MT 74 a 77 e 82</string>
+    <string name="menu_codigo_penal">Códito Penal</string>
+    <string name="menu_cf_art">CF ARTs 18 a 33 e 76 a 91</string>
+    <string name="menu_constituicao_federal">Constituição Federal (PM)</string>
+    <string name="menu_cppm">CPPM</string>
+    <string name="menu_estatuto_militares">Estatuto Militares MT</string>
+    <string name="menu_gestao_estrategica">Gestão Estrategica</string>
+    <string name="menu_improbidade_administrativa">Improbidade Administrativa</string>
+    <string name="menu_lei_de_tortura">Lei de Tortura</string>
+    <string name="menu_movimentacao">Movimentação</string>
+    <string name="menu_pad">PAD</string>
+    <string name="menu_portaria_052">Portaria 052</string>
+    <string name="menu_portugues">Português</string>
+    <string name="menu_promocao">Promoção</string>
+    <string name="menu_rdpm">RDPM</string>
+    <string name="menu_tudao">Tudão</string>
+    <string name="menu_logout">Logout</string>
+
+
+    <string-array name="unidade">
+        <item>ABUSO DE AUTORIDADE</item>
+        <item>ADMINITRACAO PUBLICA</item>
+        <item>CE MT 74 a 77 e 82</item>
+        <item>CODIGO PENAL<MILITAR></MILITAR></item>
+        <item>CF ARTs 18 a 33 e 76 a 91</item>
+        <item>CONSTITUICAO FEDERAL (PM)</item>
+        <item>CPPM</item>
+        <item>ESTATUTO MILITARES MT</item>
+        <item>GESTAO ESTRATEGICA</item>
+        <item>IMPROBIDADE ADMINISTRATIVA</item>
+        <item>LEI DE TORTURA</item>
+        <item>MOVIMENTACAO</item>
+        <item>PAD</item>
+        <item>PORTARIA 052</item>
+        <item>PORTUGUES</item>
+        <item>PROMOCAO</item>
+        <item>RDPM</item>
+    </string-array>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="play_console_licence">MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAhLgf94J54fI2de0B1Lf/56lNodK3kpBjc3R4bkZFbF8a7MtN89/ZsCRCOZOohkiOPdBzPrM/UPr74C2h00NmCpedV9331zbybqUmEnCBRqV0bEFNnMmRJnzVJwN26PI959KXLtKvrYBdVJ0jsFWWNM3p4gLIK/qecbXb3IdHJO9kQ4SD6hhyW8OMXpdncn8hDNZNkPNdkXw+s77+u76G8oDuCp1+Z3jHFbh7zoq4Fks5IPpyqLntFT6oCJYm/1xvO4b8jXfS5wdYVnThrIfv7PPvSftPk7yVUktXMAYcirxowWiwGAWWPqfDrxMDY5R4pS3sGh3IMVCVQMYo6I685QIDAQAB</string>
+    <string name="product_id">test_subscription</string>
+
+</resources>

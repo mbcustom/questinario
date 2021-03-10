@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="br.com.mbcustom.questinrio.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home">
+
+        <action
+            android:id="@+id/action_HomeFragment_to_HomeSecondFragment"
+            app:destination="@id/nav_home_second" />
+    </fragment>
+    <fragment
+        android:id="@+id/nav_home_second"
+        android:name="br.com.mbcustom.questinrio.ui.home.HomeSecondFragment"
+        android:label="@string/home_second"
+        tools:layout="@layout/fragment_home_second">
+        <action
+            android:id="@+id/action_HomeSecondFragment_to_HomeFragment"
+            app:destination="@id/nav_home" />
+
+        <argument
+            android:name="myArg"
+            app:argType="string" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/nav_abuso_de_poder"
+        android:name="br.com.mbcustom.questinrio.ui.abuso.AbusoFragment"
+        android:label="@string/menu_abuso_de_poder"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_administracao_publica"
+        android:name="br.com.mbcustom.questinrio.ui.administracao.AdministracaoFragment"
+        android:label="@string/menu_adminitracao_publica"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_ce_mt"
+        android:name="br.com.mbcustom.questinrio.ui.cemt.CemtFragment"
+        android:label="@string/menu_ce_mt"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_codigo_penal"
+        android:name="br.com.mbcustom.questinrio.ui.codigopenal.CodigoPenalFragment"
+        android:label="@string/menu_codigo_penal"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cf_art"
+        android:name="br.com.mbcustom.questinrio.ui.cf.CfFragment"
+        android:label="@string/menu_cf_art"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_constituicao_federal"
+        android:name="br.com.mbcustom.questinrio.ui.constituicaofederal.ConstituicaoFederalFragment"
+        android:label="@string/menu_constituicao_federal"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_cppm"
+        android:name="br.com.mbcustom.questinrio.ui.cppm.CppmFragment"
+        android:label="@string/menu_cppm"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_estatuto_militares"
+        android:name="br.com.mbcustom.questinrio.ui.estatuto.EstatutoFragment"
+        android:label="@string/menu_estatuto_militares"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gestao_estrategica"
+        android:name="br.com.mbcustom.questinrio.ui.gestao.GestaoFragment"
+        android:label="@string/menu_gestao_estrategica"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_improbidade_administrativa"
+        android:name="br.com.mbcustom.questinrio.ui.improbabidade.ImprobabidadeFragment"
+        android:label="@string/menu_improbidade_administrativa"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_lei_de_tortura"
+        android:name="br.com.mbcustom.questinrio.ui.leidetortura.LeiDeTorturaFragment"
+        android:label="@string/menu_lei_de_tortura"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_movimentacao"
+        android:name="br.com.mbcustom.questinrio.ui.movimentacao.MovimentacaoFragment"
+        android:label="@string/menu_movimentacao"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_pad"
+        android:name="br.com.mbcustom.questinrio.ui.pad.PadFragment"
+        android:label="@string/menu_pad"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_portaria_052"
+        android:name="br.com.mbcustom.questinrio.ui.portaria.PortariaFragment"
+        android:label="@string/menu_portaria_052"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_portugues"
+        android:name="br.com.mbcustom.questinrio.ui.portugues.PortuguesFragment"
+        android:label="@string/menu_portugues"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_promocao"
+        android:name="br.com.mbcustom.questinrio.ui.promocao.PromocaoFragment"
+        android:label="@string/menu_promocao"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_rdmp"
+        android:name="br.com.mbcustom.questinrio.ui.rdpm.RdpmFragment"
+        android:label="@string/menu_rdpm"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_tudao"
+        android:name="br.com.mbcustom.questinrio.ui.tudao.TudaoFragment"
+        android:label="@string/menu_tudao"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_logout"
+        android:name="br.com.mbcustom.questinrio.ui.logout.LogoutFragment"
+        android:label="@string/menu_logout"
+        tools:layout="@layout/fragment_home" />
+
+</navigation>
