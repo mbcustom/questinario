@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "743797708230",
+    "project_id": "questionario-f8b56",
+    "storage_bucket": "questionario-f8b56.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:743797708230:android:50a3e32ea84b4976cc8ec7",
+        "android_client_info": {
+          "package_name": "br.com.mbcustom.questinrio"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "743797708230-ibm8q2qi78blev90icnv3dki55s615r8.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "br.com.mbcustom.questinrio",
+            "certificate_hash": "5e84f5d6f3be7e60a9ee915e4cae1e73aebdaaad"
+          }
+        },
+        {
+          "client_id": "743797708230-55c25m7kdd24hk03qku7tdk5fkj91ogg.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDaAoP0PyL-rjX8_9gFQHGuSTgviA_ethA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "743797708230-55c25m7kdd24hk03qku7tdk5fkj91ogg.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
